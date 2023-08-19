@@ -4,7 +4,7 @@ Final Project - PHYS 3600ID Fall 2022
 
 ### GUIDELINES
 
-The data are simulated (but realistic) spectra of galaxies at redshift = 1 (corresponding to an epoch of about 5 billion years in the past - those are far!), and our goal is to learn how to predict different physical properties of the galaxies.
+The data are simulated (but realistic) spectra of galaxies at redshift = 1 (corresponding to an epoch of about 5 billion years in the past), and our goal is to learn how to predict different physical properties of the galaxies.
 
 Our learning set is made of 1,000 galaxies (note: I might get more if needed!). For each galaxy, our information consists of 850 measurements of the brightness (measured in a funny unit called microJansky) at 850 wavelengths, between 1,995 Angstrom and 100,000 Angstrom, which in layman terms correspond to ultraviolet (UV) to infrared (IR). These are available in the file:
 
@@ -16,11 +16,11 @@ Summarizing, we have 850 features for each object. The wavelengths corresponding
 
 Our goal will be to learn how to predict some properties of the galaxies from their spectra, in particular:
 
-**Age:** how long ago did the galaxy form its first stars?
+**Age:** Time since a galaxy started forming its first starts.
 
-**Tau:** (a bit difficult to explain, so let's use this simple version) A parameter, also expressed in the units of time, which describes how fast/slow the process of star formation proceeds.
+**Tau:** A parameter, also expressed in the units of time, which describes how fast/slow the process of star formation proceeds.
 
-**Stellar Mass:** the total amount of mass in stars (because we know there is also gas and dark matter, right)? Usually expressed in units of the mass of the Sun so we don't have to deal with very large numbers.
+**Stellar Mass:** The total amount of mass in stars, usually expressed in units of the mass of the Sun.
 
 **Dust (A\_v):** Amount of cosmic dust in a galaxy, measured as the diminishing of optical light (since dust absorbs optical waves).
 
